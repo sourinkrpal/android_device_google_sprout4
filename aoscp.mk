@@ -1,7 +1,7 @@
 $(call inherit-product, device/google/sprout4/full_sprout4.mk)
 
 # Common CM stuff
-$(call inherit-product, vendor/aoscp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=6.0/MRA58M/2280749:user/release-keys PRIVATE_BUILD_DESC="sprout-user 6.0 MRA58M 2280749 release-keys"
 
